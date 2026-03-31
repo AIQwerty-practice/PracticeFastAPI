@@ -49,13 +49,13 @@ streamlit run frontend.py
 Use code with caution.
 
 Web UI: Usually opens at http://localhost:8501
-📝 API Endpoints
-Method	Endpoint	Description
-GET	/tasks	List all tasks (includes filters)
-POST	/tasks	Create a new task
-PATCH	/tasks/{id}	Partially update a task (e.g., mark Done)
-DELETE	/tasks/{id}	Remove a task permanently
-📂 Project Structure
-main.py - FastAPI application logic and Pydantic models.
-frontend.py - Streamlit UI and API request handling.
-requirements.txt - Project dependencies (FastAPI, Streamlit, Pydantic, etc.).
+📝 API Endpoints <br> <br>
+Method	Endpoint	Description <br>
+GET	/tasks	List all tasks (includes filters) <br>
+POST	/tasks	Create a new task <br>
+PATCH	/tasks/{id}	Partially update a task (e.g., mark Done) <br>
+DELETE	/tasks/{id}	Remove a task permanently <br>
+📂 Project Structure <br> <br>
+main.py - FastAPI application logic and Pydantic models. <br>
+frontend.py - Streamlit UI and API request handling. <br>
+requirements.txt - Project dependencies (FastAPI, Streamlit, Pydantic, etc.). <br>
