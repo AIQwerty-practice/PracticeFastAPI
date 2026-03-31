@@ -12,41 +12,41 @@ graph LR
     Streamlit <-- REST API --> FastAPI[FastAPI Backend]
     FastAPI <--> DB[(In-Memory Store)]
 ``` 
-🛠️ Prerequisites
-Python 3.12.x (Required for package compatibility)
-Git (For cloning the repository)
-🚀 Quick Start Guide
-1. Clone & Setup Environment
+🛠️ Prerequisites <br> <br>
+Python 3.12.x (Required for package compatibility) <br>
+Git (For cloning the repository) <br>
+🚀 Quick Start Guide <br> <br> <br
+1. Clone & Setup Environment <br>
 powershell
-# Clone the project (or just enter your folder)
+# Clone the project (or just enter your folder) <br>
 cd your-project-folder
 
-# Create a virtual environment using Python 3.12
-python -m venv .venv
+# Create a virtual environment using Python 3.12 <br>
+python -m venv .venv <br>
 
-# Activate the environment
+# Activate the environment <br>
 # On Windows:
-.venv\Scripts\activate
-# On Mac/Linux:
-source .venv/bin/activate
+.venv\Scripts\activate <br>
+# On Mac/Linux: <br>
+source .venv/bin/activate <br>
 
-# Install dependencies
+# Install dependencies <br>
 pip install -r requirements.txt
 Use code with caution.
 
-2. Run the Application
-You will need two separate terminals running at the same time:
-Terminal 1: The Backend (FastAPI)
-powershell
-uvicorn main:app --reload
-Use code with caution.
+2. Run the Application <br> <br>
+You will need two separate terminals running at the same time: <br><br>
+Terminal 1: The Backend (FastAPI) <br>
+powershell <br>
+uvicorn main:app --reload <br>
+Use code with caution. <br>
 
-API URL: http://127.0.0
-Interactive Docs (Swagger): http://127.0.0
-Terminal 2: The Frontend (Streamlit)
-powershell
-streamlit run frontend.py
-Use code with caution.
+API URL: http://127.0.0.1/8000/tasks <br>
+Interactive Docs (Swagger): http://127.0.0.1/8000/docs <br><br>
+Terminal 2: The Frontend (Streamlit) <br>
+powershell<br>
+streamlit run frontend.py <br>
+Use code with caution. <br>
 
 Web UI: Usually opens at http://localhost:8501
 📝 API Endpoints <br> <br>
