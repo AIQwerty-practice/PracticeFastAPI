@@ -11,7 +11,7 @@ graph LR
     User((User)) <--> Streamlit[Streamlit Frontend]
     Streamlit <-- REST API --> FastAPI[FastAPI Backend]
     FastAPI <--> DB[(In-Memory Store)]
-    
+``` 
 🛠️ Prerequisites
 Python 3.12.x (Required for package compatibility)
 Git (For cloning the repository)
