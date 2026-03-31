@@ -1,0 +1,21 @@
+# Python virtual environment (The most important one!)
+.venv/
+venv/
+env/
+
+# Python cache (compiled files that run automatically)
+__pycache__/
+*.pyc
+
+# VS Code settings (Personal editor preferences)
+.vscode/
+
+# Streamlit local config
+.streamlit/
+
+# OS-specific junk (like thumbnail icons)
+Thumbs.db
+.DS_Store
+
+# Environment variables (If you ever add secret API keys later)
+.env
