@@ -1,21 +1,3 @@
-"""
-Mini FastAPI project — full CRUD for a Task manager
------------------------------------------------------
-Endpoints:
-  GET    /tasks              — list all tasks (optional filter: ?completed=true/false)
-  GET    /tasks/{id}         — get one task by ID
-  POST   /tasks              — create a new task
-  PUT    /tasks/{id}         — replace a task entirely
-  PATCH  /tasks/{id}         — update specific fields only
-  DELETE /tasks/{id}         — delete a task
-
-Run:
-  uvicorn main:app --reload
-
-Docs:
-  http://127.0.0.1:8000/docs
-"""
-
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Optional, List
