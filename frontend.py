@@ -5,7 +5,7 @@ st.set_page_config(page_title="Task Manager UI", page_icon="📝")
 st.title("📝 Task Manager")
 
 # Address of your Backend
-API_URL = "http://127.0.0.1:8000/tasks"
+API_URL = "https://practicefastapi.onrender.com"
 
 # --- SIDEBAR: ADD NEW TASK ---
 with st.sidebar:
